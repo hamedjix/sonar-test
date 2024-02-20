@@ -6,6 +6,7 @@ export default defineConfig({
   test: {
     coverage: {
       provider: "v8",
+      reporter: ["lcov"],
     },
     alias: {
       "@": "/src",
