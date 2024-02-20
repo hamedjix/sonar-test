@@ -1,6 +1,7 @@
-import "@testing-library/jest-dom";
-import { sum } from "../utils/math";
+// sum.test.js
+import { sum } from "@/utils/math";
+import { expect, test } from "vitest";
 
-test("adds 1 + 2 to equal 3", () => {
-  expect(sum(1, 2)).toBe(3);
+test("adds 2 + 5 to equal 7", () => {
+  expect(sum(2, 5)).toBe(7);
 });
